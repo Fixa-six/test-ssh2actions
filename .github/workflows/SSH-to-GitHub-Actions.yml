@@ -1,5 +1,8 @@
 name: SSH to GitHub Actions
-on: push
+on: 
+  push:
+  workflow_dispatch:
+
 jobs:
   Ubuntu:
     runs-on: ubuntu-latest
